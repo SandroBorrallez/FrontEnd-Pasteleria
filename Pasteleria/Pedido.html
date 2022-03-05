@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Sugar Love</title>
+    <link rel="shortcut icon" href="./assets/img/Sugar_love.png"><!--Poner imagen del negocio en la pestaña del navegador-->
+    <link rel="stylesheet" href="./styles/siteprincipal.css">
+</head>
+<body>
+    
+    <header>
+        <nav id="navbar">
+            <div id="MostrarSlider-Menu">
+                <div class="Contnedor">
+                    <img src="./assets/img/Sugar_love.png" alt="Logo" class="Logo">
+                    <ul class="Texto-btn">
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="Pastelero.html">Pastelero</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><p><img src="./assets/img/Buscar.ico" alt="Buscar" class="Iconos"></p></li>
+                        <li><p><img src="./assets/img/Usiario.png" alt="Usuario" class="Iconos"></p></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="MostrarSlider-Pedido">
+        <h1 class="NombreDegradado">Tu pedido contiene lo siguiente:</h1><br>
+        <div id="Productos .Productos-content">
+            <section id="Personas">
+                <div class="personas-Caracteristicas">
+                    <label>25 a 30</label>
+                    <label>Personas:</label>
+                    <label>$1,100.00</label>
+                </div>
+            </section>
+
+            <section id="Pedido">
+                <div class="pedido-Caracteristicas">
+                    <div class="Cajapedido">
+                        <p>Sabores</p>
+                            <img src="./assets/img/Sabores.png" alt="Sabores">
+                            <ul>
+                                <table>
+                                    <tr>
+                                        <td><label>Moka</label></td>
+                                        <td><label>$50.00</label></td>
+                                    </tr>
+                                    <tr>
+                                      <td><label>Durazno</label></td>
+                                      <td><label>$60.00</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>Rompope</label></td>
+                                        <td><label>$60.00</label></td>
+                                    </tr>
+                                </table>
+                            </ul>
+                    </div>
+                </div>
+                
+                <div class="pedido-Caracteristicas">    
+                    <div class="Cajapedido">
+                        <p>Toppings</p>
+                            <img src="./assets/img/Toppings.png" alt="Toppings">
+                            <ul>
+                                <table>
+                                    <tr>
+                                        <td><label>M&M</label></td>
+                                        <td><label>$40.00</label></td>
+                                    </tr>
+                                    <tr>
+                                      <td><label>Fresas</label></td>
+                                      <td><label>$40.00</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>Chispas de Colores</label></td>
+                                        <td><label>$40.00</label></td>
+                                    </tr>
+                                </table>
+                            </ul>
+                    </div>    
+                </div>  
+
+                <div class="pedido-Caracteristicas">    
+                    <div class="Cajapedido">
+                        <p>Relleno</p>
+                            <img src="./assets/img/Relleno.png" alt="Relleno">
+                            <ul>
+                                <table>
+                                    <tr>
+                                        <td><label>Crema Pastelera</label></td>
+                                        <td><label>$60.00</label></td>
+                                    </tr>
+                                </table>
+                            </ul>
+                    </div>
+                </div>
+            
+                
+            </section>
+        </div>
+                
+    </div>
+    
+    <div id="Cliente">
+        <div class="Formulario">
+            <div class="Etiquetas">
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" name="Nombre"><br><br>
+            </div>
+            <div class="Etiquetas">
+                <label for="Telefono">Teléfono</label>                
+                <input type="tel" id="Telefono" name="Telefono" maxlength="10"><br><br>
+            </div>
+            <div class="Etiquetas">
+                <label for="Correo">Correo Electrónico</label>
+                <input type="email" id="Correo" name="Correo"><br><br>
+            </div>
+            <div class="Etiquetas">
+                <label for="Nota">Nota Adicional</label>
+                <textarea type="text" value="Nota"></textarea><br>
+                <!--<input type="text" id="Nota" name="Nota" placeholder="Nota">-->
+            </div>
+        </div>
+    </div>
+    
+    
+    <section id="Subtotal">
+        <!--<div class="Subtotal">-->
+            <table style="margin: 0 auto;">
+                <tr>    
+                    <td><label>Subtotal</label></td>
+                    <td><label>$1,450.00</label></td>
+                </tr>
+            </table>
+            
+        <!--</div>-->
+    </section>
+    <a href="Pedido.html" class="Botonpedido">Finalizar Compra</a>
+
+</body>
+</html>

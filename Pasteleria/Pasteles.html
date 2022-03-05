@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Sugar Love</title>
+    <link rel="shortcut icon" href="./assets/img/Sugar_love.png"><!--Poner imagen del negocio en la pestaña del navegador-->
+    <link rel="stylesheet" href="./styles/siteprincipal.css">
+
+</head>
+<body>
+    
+    <header>
+        <nav id="navbar">
+            <div id="MostrarSlider-Menu">
+                <div class="Contnedor">
+                    <img src="./assets/img/Sugar_love.png" alt="Logo" class="Logo">
+                    <ul class="Texto-btn">
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="Pastelero.html">Pastelero</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><p><img src="./assets/img/Buscar.ico" alt="Buscar" class="Iconos"></p></li>
+                        <li><p><img src="./assets/img/Usiario.png" alt="Usuario" class="Iconos"></p></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <form action="Pagina.js"> <!-- Archivo de JS que no tenemos aún -->
+        <div id="MostrarSlider-Pasteles">
+            <h1 class="NombreDegradado">Escoge el de tu agrado</h1><br>
+            
+            <section id="Personas">
+                <div class="personas-Caracteristicas">
+                    <label for="precio">Precio paxs:</label>
+                    <input type="radio" id="paxs10" name="personas" value="580">
+                    <label for="paxs10">5 a 10 Personas...($580.00)</label>
+                    
+                    <input type="radio" id="paxs20" name="personas" value="800">
+                    <label for="paxs20">15 a 20 Personas...($800.00)</label>
+                    
+                    <input type="radio" id="paxs30" name="personas" value="1100">
+                    <label for="paxs30">25 a 30 Personas...($1,100.00)</label>
+                    
+                    <input type="radio" id="paxs40" name="personas" value="1500">
+                    <label for="paxs40">35 a 40 Personas...($1,500.00)</label>
+                </div>
+            </section>
+                        
+            <section id="Pasteles">
+                <div class="pasteles-Caracteristicas">
+                    <p>Sabores</p>
+                    <br>
+                    <ul>
+                        <input type="checkbox" id="moka" name="moka" value="Moka">
+                        <label for="moka">Moka</label>
+                        <label for="moka">.................................$50.00</label><br>
+                        <input type="checkbox" id="cajeta" name="cajeta" value="Cajeta">
+                        <label for="cajeta">Cajeta</label>
+                        <label for="cajeta">...............................$50.00</label><br>
+                        <input type="checkbox" id="fresa" name="fresa" value="Fresa">
+                        <label for="fresa">Fresa</label>
+                        <label for="fresa">................................$60.00</label><br>
+                        <input type="checkbox" id="durazno" name="durazno" value="Durazno">
+                        <label for="durazno">Durazno</label>
+                        <label for="durazno">............................$60.00</label><br>
+                        <input type="checkbox" id="chocolate" name="chocolate" value="Chocolate">
+                        <label for="chocolate">Chocolate</label>
+                        <label for="chocolate">..........................$50.00</label><br>
+                        <input type="checkbox" id="chocolatementa" name="chocolatementa" value="Chocolate con Menta">
+                        <label for="chocolatementa">Chocolate con Menta</label>
+                        <label for="chocolatementa">........$50.00</label><br>
+                        <input type="checkbox" id="trufa" name="trufa" value="Trufa">
+                        <label for="trufa">Trufa</label>
+                        <label for="trufa">..................................$80.00</label><br>
+                        <input type="checkbox" id="rompope" name="rompope" value="Rompope">
+                        <label for="rompope">Rompope</label>
+                        <label for="rompope">..........................$60.00</label><br>
+                        <input type="checkbox" id="marmoleado" name="marmoleado" value="Marmoleado">
+                        <label for="marmoleado">Marmoleado</label>
+                        <label for="marmoleado">......................$40.00</label><br>
+                        <input type="checkbox" id="oreo" name="oreo" value="Oreo">
+                        <label for="oreo">Oreo</label>
+                        <label for="oreo">..................................$70.00</label><br>
+                    </ul>
+                </div>
+                
+                <div class="pasteles-Caracteristicas">
+                    <p>Toppings</p>
+                    <br>
+                    <ul>
+                        <input type="checkbox" id="chispaschocolate" name="chispaschocolate" value="Chispas de Chocolate">
+                        <label for="chispaschocolate">Chispas de Chocolate</label>
+                        <label for="chispaschocolate">.....$25.00</label><br>
+                        <input type="checkbox" id="mandm;" name="mandm" value="M&M">
+                        <label for="mandm">M&M</label>
+                        <label for="mandm">................................$35.00</label><br>
+                        <input type="checkbox" id="cubiertanata;" name="cubiertanada" value="Cubierta de Nata">
+                        <label for="cubiertanata">Cubierta de Nata</label>
+                        <label for="cubiertanata">.............$40.00</label><br>
+                        <input type="checkbox" id="fresas;" name="fresas" value="Fresas">
+                        <label for="fresas">Fresas</label>
+                        <label for="fresas">.............................$40.00</label><br>
+                        <input type="checkbox" id="chispascolores;" name="chispascolores" value="Chispas de Colores">
+                        <label for="chispascolores">Chispas de Colores</label>
+                        <label for="chispascolores">........$40.00</label><br>
+                        
+                    </ul>
+                </div>
+                <div class="pasteles-Caracteristicas">
+                    <p>Relleno</p>
+                    <br>
+                    <ul>
+                        <input type="radio" id="cremapastelera" name="relleno" value="Crema Pastelera">
+                        <label for="cremapastelera">Crema Pastelera</label>
+                        <label for="cremapastelera">..............$70.00</label><br>
+                        <input type="radio" id="tresleches" name="relleno" value="Tres Leches">
+                        <label for="tresleches">Tres Leches</label>
+                        <label for="tresleches">......................$60.00</label><br>
+                        <input type="radio" id="mermeladadefresa" name="relleno" value="Mermelada de Fresa">
+                        <label for="mermeladadefresa">Mermelada de Fresa</label>
+                        <label for="mermeladadefresa">........$60.00</label><br>
+                        <input type="radio" id="mermeladadedurazno" name="relleno" value="Mermelada de Durazno">
+                        <label for="mermeladadedurazno">Mermelada de Durazno</label>
+                        <label for="mermeladadedurazno">....$60.00</label><br>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <a href="Pedido.html" class="Boton">Agregar al Carrito</a>
+                <input type="reset" class="Boton-restablecer" value="Borrar"> <!-- borra las selecciones del menú-->
+                <!--<input type="submit">-->
+            </section>
+        </div>
+        
+        <section id="Variedad">
+            <div class="Encabezado-pasteles">
+                <h1>Pasteles</h1>
+            </div>
+            <div class="variedad-content">
+                <div class="Cajavariedad">
+                    <img src="./assets/img/Pastel3LechesCajeta.png" alt="PastelCajeta">
+                    <h2>Pastel 3 Leches con Cajeta</h2>
+                    <h3>$560.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/Pastel3LechesRompope.png" alt="PastelRompope">
+                    <h2>Pastel 3 Leches con Rompope</h2>
+                    <h3>$660.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelCafe.png" alt="PastelCafe">
+                    <h2>Pastel de Café</h2>
+                    <h3>$620.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelChocolateCajeta.png" alt="PastelChocolateC">
+                    <h2>Pastel Chocolate con Cajeta</h2>
+                    <h3>$760.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelChocolateFresas.png" alt="PastelChocolateF">
+                    <h2>Pastel Chocolate con Fresas</h2>
+                    <h3>$560.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelChocolateNuez.png" alt="PastelChocolateN">
+                    <h2>Pastel Chocolate con Nuez</h2>
+                    <h3>$480.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelCholateQueso.png" alt="PastelChocolateQ">
+                    <h2>Pastel Chocolate con Queso</h2>
+                    <h3>$680.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelFresasCrema.png" alt="PastelFresaC">
+                    <h2>Pastel Fresas con Crema</h2>
+                    <h3>$760.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+
+
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelMango.png" alt="PastelMango">
+                    <h2>Pastel de Mango</h2>
+                    <h3>$610.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelTrufa.png" alt="PastelTrufa">
+                    <h2>Pastel de Trufa</h2>
+                    <h3>$720.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelVainilla.png" alt="PastelVainilla">
+                    <h2>Pastel de Vainilla</h2>
+                    <h3>$460.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+                <div class="Cajavariedad">
+                    <img src="./assets/img/PastelVainillaCajeta.png" alt="PastelVainillaC">
+                    <h2>Pastel Vainilla con Cajeta</h2>
+                    <h3>$580.00</h3><br>
+                    <h4>
+                        <label for="cantidad">Cantidad</label><br>
+                        <input type="number" name="cantidad" id="cantidad" placeholder=""><br>
+                        <button type="submit" value="Aceptar" onclick="alert('Agregado al carrito');">Agregar</button>
+                    </h4>
+                </div>
+            </div>
+        </section>    
+
+    </form>
+    <footer>
+        <nav id="navbar">
+            <div id="MostrarSlider-Menu">
+                <div class="Contnedor">
+                    <img src="./assets/img/Sugar_love.png" alt="Logo" class="Logo">
+                    <ul class="Texto-btn">
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="Pastelero.html">Pastelero</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><p><img src="./assets/img/Buscar.ico" alt="Buscar" class="Iconos"></p></li>
+                        <li><p><img src="./assets/img/Usiario.png" alt="Usuario" class="Iconos"></p></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+    
+    
+</body>
+</html>

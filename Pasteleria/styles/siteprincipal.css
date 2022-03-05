@@ -1,0 +1,609 @@
+*{/*para reiniciar los márgenes en todas las páginas*/
+    padding: 0;
+    margin: 0;
+}
+
+:root
+{
+    --Inicio-color: #ffbfa0;
+    --Primario-color:#feb6d5;
+    --Secundario-color: #9b5874;
+}
+
+body{
+    background: #ffffff; /*Color de las páginas*/
+}
+
+ul li a{color: rgb(166, 200, 102);} /*color de las letras del menú*/
+/*.Contenedor{
+    margin: 0 auto;
+    max-width: 1024px;
+    /*padding: 0,20;
+    overflow: auto;*/
+/*}*/
+
+.Texto-btn{
+    font-size: 1em;
+    text-transform: uppercase;
+    padding-top: 40px; /*dejar un margen arriba del menú*/
+}
+
+#MostrarSlider-Inicio{ /*agrega la imagen y da formato*/
+    background-image: url("../assets/img/Pastel_principal.jpg");    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;/*poner la imagen completa a lo ancho en la pantalla*/
+    height: 80vh;
+    padding: 20px;
+}
+#MostrarSlider-Inicio img{
+    width: 330px;
+    height: 300px;
+    padding-top: 40px;
+    opacity: 0.5;
+    
+}
+#MostrarSlider-Inicio h1{/*Se centra y da color al texto de h1*/
+    padding: 30px;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 60px;
+    color: #b6c2ce;
+}
+
+.Logo{
+    width: 80px;
+    margin-left: 20px;
+    padding-top: 10px; /*dejar una margen arriba del logo*/
+    padding-bottom: 10px; /*dejar una margen abajo del logo*/
+}
+.Iconos{
+    width: 25px;
+    margin-right: 30px;
+    /*padding-top: 1px ; /*dejar una margen arriba del logo*/
+    cursor: pointer; /*hace que el cursor cambie de la flecha a la manita*/
+}
+
+
+/*Slider header*/
+#MostrarSlider-Menu{
+    /*background: #7f5a83;*/
+    height: 15vh;
+    width: auto;
+    padding: 10px;
+    
+}
+
+.NombreDegradado{ /*Pone en diferentes colores la palabra Nuestros Productos*/
+    color: #1f1f25;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*navbar*/
+
+#navbar{
+    overflow: auto;
+    background: #776a79; /*color letras del menu inicio*/
+    
+    /*height: 120px;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	/*left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	/*top: 0; /* Posicionamos la cabecera pegada arriba */
+	/*position: fixed; /* Hacemos que la cabecera tenga una posición fija*/
+}
+#navbar .Logo{ /*ubicar el logo a la izquierda*/
+    float: left;
+     
+}
+#navbar ul{
+    list-style: none; /*quito los puntitos de las palabras*/
+    float:right; /*el menú lo ubica a la derecha*/
+}
+#navbar ul li{ /*el manú lo pone en una sola línea*/
+    float: left;
+}
+#navbar ul li a{
+    padding: 20px; /*crea espacio entre las palabras*/
+    text-align: center;
+    /*display: block;*/
+}
+#navbar ul li p:hover{
+    transform: scale(1.3);
+}
+#navbar ul li a:hover,
+#navbar ul li a.Seleccionado{
+    background: #ffbfa0;
+    
+    /*color: black;*/
+}
+
+/*Nuestro Productos*/
+#Productos{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    
+}
+#Productos .productos-nav{
+    
+    padding-bottom: 20px;
+}
+#Productos h1{
+    font-size: 3em;
+    color: #196969;
+    text-transform: uppercase;/*Convierte el texto a mayusculas*/
+}
+
+#Productos h3{
+    color: cadetblue;
+}
+#Productos .Productos-content{
+    display: table;
+    padding-bottom: 20px;
+    
+}
+
+/*Caja de las imágenes*/
+.Caja{
+    float: left;
+    width: 30%; /*tamaño de las 5 imagenes para que entre en una línea*/
+    padding-bottom: 50px;
+    
+}
+.Caja img{
+    width: 70%;/*para que la imagen no pierda resolución y establecer el tamaño de la misma*/
+    
+}
+.Caja a:hover img{ /*para que la imagen tenga efecto de resaltar*/
+    transform: scale(1.1);
+}
+
+
+/*Peasteles*/
+#Pasteles{
+    height: 500px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 100px;*/
+}
+#Pasteles .pasteles-Caracteristicas{
+    float: left;
+    width: 30%;
+    text-align: left;
+    /*margin: auto;*/
+    margin-left: 30px;
+}
+
+#Pasteles .pasteles-Caracteristicas label{
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(199, 22, 101);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Pasteles .pasteles-Caracteristicas p{
+    font-size: 22px;
+    line-height: 1.5em;
+    color: rgb(87, 70, 161);
+    font-family: Arial, Helvetica, sans-serif;/*esta opción es que todas las maquinas tienen esa fuente*/
+    margin-top: 30px;    
+}
+#Pasteles .pasteles-Caracteristicas ul{
+    font-size: 17px;
+    line-height: 1.5em;
+    color: rgb(14, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;/*esta opción es que todas las maquinas tienen esa fuente*/
+    margin-top: 10px;    
+}
+
+/*Variedad*/
+#Variedad{
+    text-align: center;
+    padding: 30px;
+    
+}
+#Variedad .Encabezado-pasteles{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-style: italic;
+    color: #fd4766;
+}
+#Variedad h2{
+    font-size: 18px;
+    color: rgb(87, 70, 161);
+}
+#Variedad h3{
+    font-size: 16px;
+    color: rgb(168, 125, 24);
+}
+#Variedad h4{
+    font-size: 14px;
+    color: rgb(153, 19, 19);
+    font-weight: 600; /*grosor de la letra entre otros*/
+    text-decoration: underline; /*interlineado entre otros*/
+}
+#Variedad .variedad-content{
+    display: table;
+    padding-bottom: 20px;
+}
+#Variedad .variedad-content input{
+    padding: 5px 30px;
+    text-align: center;
+}
+#Variedad .variedad-content button{
+    background: rgb(0, 0, 0);
+    padding: 5px 90px; /*tamaño del boton*/
+    color: white;
+    /*width: 100px;*/
+}
+.Cajavariedad{
+    float: left;
+    width: 25%; /*tamaño de las 5 imagenes para que entre en una línea*/
+    /*margin: 20px;*/
+    padding-bottom: 30px;
+    /*padding-top: 30px;*/
+    margin: 0 auto;
+}
+.Cajavariedad img{
+    width: 70%;/*para que la imagen no pierda resolución y establecer el tamaño de la misma*/
+}
+.Botoncarrito{
+    /*margin-top: 150px;*/
+    /*padding-bottom: 20px;*/
+    margin-left: 560px;
+    background: rgb(231, 3, 3);
+    border: 2px solid rgb(17, 3, 80);
+    color: rgb(244, 243, 250);
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transform: all .4s ease-in-out;
+    background-size: 100% 80%;
+}
+
+
+
+/*Pedido*/
+.Cajapedido{
+    float: left;
+    width: 30%; /*tamaño de las 5 imagenes para que entre en una línea*/
+    margin: 20px;
+}
+.Cajapedido img{
+    width: 70%;/*para que la imagen no pierda resolución y establecer el tamaño de la misma*/
+}
+
+
+
+#Pedido{
+    overflow: auto;
+}
+#Pedido img{
+    padding-bottom: 30px;
+}
+#Pedido .pedido-Caracteristicas label{
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(199, 22, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#Pedido .pedido-Caracteristicas p{
+    padding-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.5em;
+    color: rgb(87, 70, 161);
+    font-family: Arial, Helvetica, sans-serif;/*esta opción es que todas las maquinas tienen esa fuente*/
+    margin-top: 30px;
+}
+#Pedido .pedido-Caracteristicas table,th{
+    border-collapse: collapse;
+}
+#Pedido .pedido-Caracteristicas td{
+    border: rgb(3, 3, 245) 2px solid;
+    margin: 15px;
+    padding: 10px;
+    text-align: left;
+    
+}
+#Subtotal{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+#Subtotal label{
+    font-size: 25px;
+    color: rgb(14, 14, 14);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cliente*/
+#Cliente{
+    height: 370px; /*baja la etiqueta de Subtotal*/
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; /*grosor de la letra entre otros*/
+    text-decoration: underline; /*interlineado entre otros*/
+}
+#Cliente .Formulario{
+    float: left;
+    width: 45%;
+    padding: 20px 10px 20px 10px;
+}
+
+#Ciente .Formulario .Etiquetas{
+    padding-bottom: 20px;
+}
+#Cliente .Formulario .Etiquetas label{
+    padding-bottom: 20px;
+    
+}
+#Cliente .Formulario .Etiquetas textarea,
+#Cliente .Formulario .Etiquetas input{
+    width: 100%;
+    padding: 10px;
+    border: 1px gray solid;
+}
+#Cliente .Formulario .Etiquetas textarea{
+    height: 100px;
+}
+
+.Botonpedido{
+    /*margin-top: 150px;*/
+    /*padding-bottom: 20px;*/
+    margin-left: 560px;
+    background: rgb(231, 3, 3);
+    border: 2px solid rgb(17, 3, 80);
+    color: rgb(244, 243, 250);
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transform: all .4s ease-in-out;
+    background-size: 150% 100%;
+}
+
+
+/*Personas*/
+#Personas{
+    height: 10px;
+}
+#Personas .personas-Caracteristicas{
+    /*padding: 10px; /*crea espacio entre las palabras*/
+    text-align: center;
+    /*float: left;
+    width: 1%;
+    text-align: left;
+    /*margin: auto;
+    margin-left: 10px;*/
+}
+#Personas .personas-Caracteristicas label{
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(15, 146, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*Boton*/
+.Boton{
+    margin-top: 150px;
+    /*padding-bottom: 20px;*/
+    background: rgb(231, 3, 3);
+    border: 2px solid rgb(17, 3, 80);
+    color: rgb(244, 243, 250);
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transform: all .4s ease-in-out;
+    background-size: 150% 100%;
+}
+
+.Boton-restablecer{
+    margin-top: 150px;
+    /*padding-bottom: 20px;*/
+    background: rgb(13, 102, 102);
+    border: 2px solid rgb(17, 3, 80);
+    color: rgb(244, 243, 250);
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transform: all .4s ease-in-out;
+    background-size: 150% 100%;
+}
+
+/*Banner Pasteles*/
+#MostrarSlider-Pasteles{
+    background: white;
+    height:70vh;
+    padding: 50px;
+    opacity: 0.9;
+}
+
+
+/*Banner Pedido*/
+#MostrarSlider-Pedido{
+    background: white;
+    height:70vh;
+    padding: 50px;
+    opacity: 0.9;
+}
+
+
+
+/*Pastelero*/
+.Cajapastelero{
+    float: left;
+    width: 45%; /*tamaño de las 5 imagenes para que entre en una línea*/
+    margin: 20px;
+       
+}
+#Pastelero{
+    overflow: auto;
+}
+#Pastelero h2{
+    margin: 20px;
+    color: rgb(87, 70, 161);
+}
+#Pastelero .pastelero-Caracteristicas label{
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(199, 22, 101);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Pastelero .pastelero-Caracteristicas input{/*botn de aceptar*/
+    margin: 20px;
+}
+#Pastelero .pastelero-Caracteristicas table,th{
+    border-collapse: collapse;
+}
+#Pastelero .pastelero-Caracteristicas td{
+    border: rgb(3, 3, 245) 2px solid;
+    margin: 15px;
+    padding: 10px;
+    text-align: left;
+}
+#Pastelero .pastelero-Caracteristicas input{
+    background: rgb(199, 18, 18);
+    padding: 12px 28px; /*tamaño del boton*/
+    color: white;
+    /*width: 100px;*/
+}
+
+
+
+/*Inventario*/
+/*Pastelero*/
+
+#Inventario{
+    /*overflow: auto;*/
+}
+#Inventario h1{
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+#Inventario h2{
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+}
+#Inventario .inventario-Caracteristicas label{
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(199, 22, 101);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Inventario .inventario-Caracteristicas input{/*botn de aceptar*/
+    margin: 20px;
+}
+
+#Inventario .inventario-Caracteristicas table,th{
+    border-collapse: collapse;
+    border: rgb(0, 0, 0) 2px solid;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+#Inventario .inventario-Caracteristicas td{
+    border: rgb(0, 0, 0) 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Contacto*/
+#Contacto{
+    height: 60px;
+    padding-bottom: 100px;
+}
+#Contacto .Caja-Contacto-Caracteristicas{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding-top: 50px;
+}
+#Contacto .Caja-Contacto-Caracteristicas p{
+    line-height: .8em;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;/*esta opción es que todas las pc tienen esa fuente*/
+    margin-top: 10px;
+}
+#Contacto .Caja-Contacto-Caracteristicas img{
+    width: 80px;
+}
+#Contacto .Caja-Contacto-Caracteristicas h4{
+    font-size: 20px;
+    color: gray;
+}
+
+/*Formulario y Mapas*/
+#Formulario{
+    padding-top: 20px;
+    padding-bottom: 1000px;
+}
+#Formulario .formulariosMapa .Mapa{
+    float: left;
+    width: 45%;
+    padding: 60px 10px 20px 10px;
+    
+    
+}
+#Formulario .formulariosMapa .Mapa iframe{/*Asignar el tamaño al mapa*/
+    width: 100%;
+    height: 500px;
+    
+}
+#Formulario .formulariosMapa .Mapa .Etiquetas{
+    margin-bottom: 20px;
+}
+/*#Formulario .formulariosMapa .Mapa .Etiquetas textarea,*/
+#Formularioo .formulariosMapa .Mapa input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px gray solid;
+}
+#Formulario .formulariosMapa .Mapa textarea{
+    height: 420px;
+    width: 100%;
+    
+}
+.Botoncontacto{
+    margin-top: 20px;
+    /*padding-bottom: 20px;*/
+    background: rgb(32, 31, 31);
+    border: 2px solid rgb(17, 3, 80);
+    color: rgb(244, 243, 250);
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transform: all .4s ease-in-out;
+    background-size: 150% 100%;
+    
+}
